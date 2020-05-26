@@ -1,6 +1,6 @@
 # sesam-rest-receiver
 
-[![Build Status](https://travis-ci.org/sesam-community/oracle-transform.svg?branch=master)](https://travis-ci.org/sesam-community/oracle-transform)
+[![Build Status](https://travis-ci.org/sesam-community/sesam-rest-receiver.svg?branch=master)](https://travis-ci.org/sesam-community/sesam-rest-receiver)
 
 
 Microservice that handles the sending of entities by using custom (user-created) handlers. 
