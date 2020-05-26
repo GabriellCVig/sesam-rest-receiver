@@ -1,4 +1,5 @@
-#rest-receiver
+# sesam-rest-receiver
+
 [![Build Status](https://travis-ci.org/sesam-community/oracle-transform.svg?branch=master)](https://travis-ci.org/sesam-community/oracle-transform)
 
 
@@ -50,7 +51,7 @@ Example config:
       "_id": "rest-receiver",
       "type": "system:microservice",
       "docker":{
-        "image": "sesamcommunity/rest-receiver:1.0.0",
+        "image": "sesamcommunity/sesam-rest-receiver:1.0.0",
         "environment": {
           "handle_me_this_way": {
             "URL": "https://hello.document.reader/api",
@@ -63,7 +64,8 @@ Example config:
               }
             },
             "HEADERS":{
-              "Content-type":"application/json\; charset\=utf-8"
+              "Content-type":"application/json",
+              "charset":"utf-8"
             },
             "HANDLER":"elwin_workorder"
           },          
@@ -74,7 +76,8 @@ Example config:
               "basic": ["admin", "root"]
             },
             "HEADERS":{
-              "Content-type":"application/json\; charset\=utf-8"
+              "Content-type":"application/json",
+              "charset":"utf-8"
             },
             "HANDLER":"post"
           },
