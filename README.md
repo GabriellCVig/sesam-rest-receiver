@@ -12,7 +12,6 @@ Microservice that handles the sending of entities by using custom (user-created)
 ### Handlers
 Handlers are specified in handlers.py.
 Current handlers are:
-* post
 * elwin_workorder
 
 These handlers are accessed by using the URL of a handler. See example curl below.
